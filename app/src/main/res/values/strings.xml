@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Instagram Clone</string>
+
+    <string name="network_connection_error">Internet connection lost, please retry again</string>
+    <string name="network_default_error">Something wrong happened, please retry again</string>
+    <string name="network_internal_error">Our systems got an error, please retry again</string>
+    <string name="network_server_not_available">Our services are under maintenance, please retry after some time
+    </string>
+    <string name="server_connection_error">Not able to connect, please retry again</string>
+    <string name="network_login_again">Please log in again</string>
+    <!--Login-->
+    <string name="email_hint">Enter your email</string>
+    <string name="password_hint">Enter your Password</string>
+    <string name="login_label">Login</string>
+    <string name="email_field_empty">Email can\'t be empty</string>
+    <string name="password_field_empty">Password can\'t be empty</string>
+    <string name="email_field_invalid">Not a valid email</string>
+    <string name="password_field_small_length">Password less than 6 digits</string>
+    <string name="app_logo_content_desc">Instagram Clone App Logo</string>
+    <string name="label_Or">OR</string>
+    <string name="signup_email_label">Sign Up with Email</string>
+    <string name="person_name_hint">Enter your full name</string>
+    <string name="signup_label">Sign Up</string>
+    <string name="login_email_label">Login with Email</string>
+
+
+    <!--    Shared Element Transition-->
+    <string name="shared_element_app_logo">appLogo</string>
+    <string name="shared_element_name">name_field</string>
+    <string name="shared_element_email">email_field</string>
+    <string name="shared_element_password">password_field</string>
+    <string name="shared_element_post">postTransition</string>
+
+
+    <!--    Menu-->
+    <string name="menu_home">Home</string>
+    <string name="menu_photo">Photo</string>
+    <string name="menu_profile">Profile</string>
+
+    <!--posts-->
+    <string name="post_like_label">%1d Likes</string>
+
+    <!--photo-->
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="try_again">Please try again</string>
+    <string name="add_image_label">Add an image</string>
+
+<!--    Profile-->
+    <string name="logout_label">Logout</string>
+    <string name="post_count_label">%1d Posts</string>
+    <string name="edit_profile_label">Edit Profile</string>
+    <string name="my_posts_label">My Posts</string>
+    <string name="change_photo_label">Change Photo</string>
+    <string name="name_hint">Name</string>
+    <string name="bio_hint">Bio</string>
+    <string name="private_info_label">Private Information</string>
+    <string name="email_label">Email Address</string>
+    <string name="no_posts">No Posts</string>
+</resources>

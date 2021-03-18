@@ -71,8 +71,7 @@ class UserRepository @Inject constructor(
             }
 
     fun doFetchUserInfo(user: User): Single<UserInfoResponse.UserInfo> =
-        networkService.doFetchUserInfoCall(user.id, user.accessToken)
-            .map { it.data }
+        Single.just(UserInfoResponse.UserInfo("", "", null, null))
 
     fun doLogoutUser(user: User): Single<GeneralResponse> =
         networkService.doLogOutCall(user.id, user.accessToken)
